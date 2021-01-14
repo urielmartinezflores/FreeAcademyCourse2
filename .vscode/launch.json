@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoo: Update",
+            "type": "python",
+            "request": "attach",
+            "logToFile": true,
+            "connect": {
+                "host": "172.18.0.3",
+                "port": 5678,
+            },
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/addons",
+                    "remoteRoot": "/mnt/extra-addons", //path to custom addons inside docker
+                },
+            ],
+            //"preLaunchTask": "update&restart",
+        }
+    ]
+}

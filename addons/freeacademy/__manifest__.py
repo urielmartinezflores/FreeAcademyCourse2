@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "Open Academy",
+    "name": "Free Academy",
     "version": "13.0.0.1.0",
     "author": "HomebrewSoft",
-    "website": "https://gitlab.com/HomebrewSoft/misc/openacademy",
+    "website": "https://www.youtube.com/",
     "depends": [],
     "data": [
         # security
         # data
         # demo
-        "demo/openacademy_course.xml",
         # reports
         # views
         "views/menus.xml",
-        "views/openacademy_course.xml",
-        "views/openacademy_session.xml",
+        "views/freeacademy_course.xml",
     ],
 }
